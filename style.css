@@ -181,6 +181,7 @@ a[href^="tel:"] { white-space: nowrap; }
 .photo-main { width: 100%; aspect-ratio: 3/2; object-fit: cover; margin-bottom: 35px; }
 .photos { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .photos--3 { grid-template-columns: repeat(3, 1fr); }
+.photos--4 { grid-template-columns: repeat(4, 1fr); }
 .photos--spaced { margin-top: 40px; }
 .photos--section { margin-top: 60px; }
 .photos a { display: block; overflow: hidden; }
@@ -334,6 +335,7 @@ a[href^="tel:"] { white-space: nowrap; }
 
 /* Przeciwwskazania / przygotowanie */
 .contra-list { columns: 3; column-gap: 50px; margin-top: 45px; }
+.contra-note { margin-top: 40px; }
 .contra-list li { break-inside: avoid; font-size: 15px; padding: 8px 0; border-bottom: 1px dotted rgba(0,0,0,.2); }
 .subtitle { font-family: var(--serif); font-weight: 400; font-size: 28px; line-height: 1.25; margin-bottom: 15px; }
 .caps { text-transform: uppercase; letter-spacing: .5px; font-size: 15px; }
@@ -447,6 +449,7 @@ a[href^="tel:"] { white-space: nowrap; }
   .tabs__nav button { font-size: 13px; letter-spacing: 1.5px; }
   .tabs__panel p { font-size: 17px; }
   .photos--3 { grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
+  .photos--4 { grid-template-columns: 1fr 1fr; gap: 6px; }
   .photos { gap: 6px; }
   .grid-2--text-first > :first-child { order: 2; }
   .rating-badge { padding: 14px 18px; }
